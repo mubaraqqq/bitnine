@@ -1,9 +1,9 @@
 import "./globals.css";
 import "./index.scss";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Monda } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+const monda = Monda({ subsets: ["latin"], weight: "400" });
 
 export const metadata: Metadata = {
   title: "ArgensSQL • Bitnine Global Inc.",
@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={monda.className}>{children}</body>
     </html>
   );
 }

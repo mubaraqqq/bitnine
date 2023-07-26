@@ -1,0 +1,27 @@
+header {
+  nav {
+    div.link-container {
+      p {
+        cursor: pointer;
+
+        &:hover {
+          color: #fac433;
+        }
+      }
+
+      @media (max-width: 1024px) {
+        position: absolute;
+        top: 70px;
+        z-index: 3;
+        width: 100%;
+        background-color: #ffffff;
+        align-items: flex-start;
+        gap: 20px;
+
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+}
