@@ -95,7 +95,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="px-[3%] py-[80px] flex flex-col items-center justify-center text-center gap-[30px]">
+        <section className="enterprise px-[3%] py-[80px] flex flex-col items-center justify-center text-center gap-[30px]">
           <h2 className="font-bold text-[24px] sm:text-[34px]">
             Agens Enterprise Package
           </h2>
@@ -106,14 +106,45 @@ export default function Home() {
             supports backup and data monitoring dashboard that helps enterprise
             customers manage their data efficiently.
           </p>
-          <div className="flex flex-col sm:flex-row justify-center gap-[30px] sm:gap-[5%]">
-            <div>
-              <div className="w-[90%] lg:w-[70%] mx-[auto]">
+          <div className="flex flex-col sm:flex-row justify-around items-center gap-[50px] sm:gap-[5%]">
+            <div className="flex flex-col w-[90%] sm:w-[50%] items-center gap-[20px]">
+              <h5 className="text-[18px] sm:text-[20px] font-bold">
+                Agens HA Manager
+              </h5>
+              <h5 className="text-[18px] sm:text-[20px]">
+                <strong className="text-[#0082cb]">HA Clustering</strong> –
+                Failover/Failback, Load-balancing
+              </h5>
+              <div className="w-[95%] mx-[auto]">
                 <Image src={replication} alt="replication" />
+              </div>
+              <h5 className="text-[18px] sm:text-[20px]">Replication</h5>
+            </div>
+            <div className="flex flex-col w-[90%] sm:w-[50%] items-center gap-[20px]  px-[25px]">
+              <h5 className="text-[18px] sm:text-[20px] font-bold">
+                Agens Enterprise Manager
+              </h5>
+
+              <div className="w-[100%] border-solid border-[2px] text-[#0082cb] border-[#0082cb] py-[24px] text-center rounded-[8px]">
+                <p className="text-[18px]">Backup/Restore</p>
+              </div>
+              <div className="w-[100%] border-solid border-[2px] text-[#0082cb] border-[#0082cb] py-[24px] text-center rounded-[8px]">
+                <p className="text-[18px]">DB Monitoring Dashboard</p>
+              </div>
+              <div className="w-[100%] border-solid border-[2px] text-[#0082cb] border-[#0082cb] py-[24px] text-center rounded-[8px]">
+                <p className="text-[18px]">Schedule Management</p>
+              </div>
+              <div className="w-[100%] border-solid border-[2px] text-[#0082cb] border-[#0082cb] py-[24px] text-center rounded-[8px]">
+                <p className="text-[18px]">Database Audit</p>
+              </div>
+              <div className="w-[100%] border-solid border-[2px] text-[#0082cb] border-[#0082cb] py-[24px] text-center rounded-[8px]">
+                <p className="text-[18px]">SQL Monitoring</p>
+              </div>
+              <div className="w-[100%] border-solid border-[2px] text-[#0082cb] border-[#0082cb] py-[24px] text-center rounded-[8px]">
+                <p className="text-[18px]">Performance Management</p>
               </div>
             </div>
           </div>
-          <div></div>
         </section>
       </main>
     </>
