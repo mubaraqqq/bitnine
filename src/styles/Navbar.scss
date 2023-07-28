@@ -1,4 +1,10 @@
 header {
+  svg {
+    @media (min-width: 1024px) {
+      display: hidden;
+    }
+  }
+
   nav {
     div.link-container {
       p {

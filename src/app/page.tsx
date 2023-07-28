@@ -146,6 +146,42 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        <footer className="text-[#ABABAB] lg:px-[80px]">
+          {/* Desktop */}
+          <div className="hidden lg:flex py-[64px] gap-[7%] justify-between mx-[auto]">
+            <div>
+              <p className="mb-[10px]">PRODUCTS</p>
+              <p>Relational Database</p>
+              <p>Graph Database</p>
+              <p>Graph-based Solution</p>
+            </div>
+            <div>
+              <p className="mb-[10px]">USE CASES</p>
+            </div>
+            <div>
+              <p className="mb-[10px]">SERVICES</p>
+            </div>
+            <div>
+              <p className="mb-[10px]">RESOURCES</p>
+              <p>Documentation</p>
+              <p>Learn</p>
+            </div>
+            <div>
+              <p className="mb-[10px]">BLOG</p>
+            </div>
+            <div>
+              <p className="mb-[10px]">COMPANY</p>
+              <p>About Us</p>
+              <p>Contact</p>
+            </div>
+          </div>
+
+          {/* Mobile */}
+          <div className="flex px-[40px] py-[25px] sm:py-[40px] lg:px-0 text-[12px] sm:text-[14px] items-center border-t-[2px] border-solid border-[#cccccc] lg:border-transparent">
+            <p>© 2023 by Bitnine Global Inc. All Rights Reserved. </p>
+          </div>
+        </footer>
       </main>
     </>
   );
